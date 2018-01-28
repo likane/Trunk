@@ -1,0 +1,68 @@
+h2, h3, h4, h5, p, a {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+ a {
+	color:#262626;
+}
+
+body{
+	background-color: #181818;
+}
+
+iframe {
+	min-height: 500px;
+	overflow: auto;
+}
+.btn {
+	color: #e84b12;
+	border-color: #e84b12;
+}
+
+.btn:hover{
+	background-color: none;
+	color:#fff;
+	border-color: #fff;
+}
+
+.footer {
+	margin-top: -10px;
+}
+
+.navbar{
+	min-height: 60px;
+
+}
+.footlogo{
+	padding-left: 10px;
+}
+
+.footlogo:hover {
+	color: #e84b12 !important;
+}
+
+
+
+@media (min-width: 576px){
+
+	.jumbotron {
+	    padding: 2rem 2rem;
+	}
+}
+
+@media (max-width: 510px) and (min-width: 411px){
+
+	.jumbotron h1{
+		font-size: 5rem;
+	}
+}
+@media(max-width: 410px){
+	.jumbotron .btn {
+		margin-right: 0px;
+	
+	}
+
+	.jumbotron h1{
+		font-size: 4.5rem;
+	}
+}

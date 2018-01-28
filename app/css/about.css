@@ -1,0 +1,74 @@
+h2, h3, h4, h5, p, a {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+ a {
+	color:#262626;
+}
+
+p {
+	margin: auto 0px;
+	font-size: 1.2rem;
+}
+
+.aboutcontent {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.card-title{
+	margin-top: 25%;
+	font-size: 2rem;
+	color:#e84b12;
+}
+
+.logo{
+	color:#e84b12;
+}
+
+.topAbout {
+	margin-bottom: 20px;
+	
+}
+
+.bottomAbout{
+	
+}
+span{
+	display: inline-block;
+}
+
+.btn {
+	color: #e84b12;
+	border-color: #e84b12;
+}
+
+.btn:hover{
+	background-color: none;
+	color:#fff;
+	border-color: #fff;
+}
+
+@media (min-width: 576px){
+
+	.jumbotron {
+	    padding: 2rem 2rem;
+	}
+}
+
+@media (max-width: 510px) and (min-width: 411px){
+
+	.jumbotron h1{
+		font-size: 5rem;
+	}
+}
+@media(max-width: 410px){
+	.jumbotron .btn {
+		margin-right: 0px;
+	
+	}
+
+	.jumbotron h1{
+		font-size: 4.5rem;
+	}
+}
