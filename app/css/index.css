@@ -10,6 +10,15 @@ body {
 
 }
 
+.header {
+	color: #fff;
+}
+
+.brand-logo {
+	margin-left: 15px;
+
+}
+
 .EntryWrap {
 	height: 400px;
 	background: rgba(100,100,100, .3) !important;
@@ -26,5 +35,10 @@ body {
 .card {
 	background: rgba(100,100,100, .2) !important;
 	min-height: 300px;
+}
+
+
+#EntryContent {
+	height: 300px;
 }
 
